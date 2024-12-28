@@ -37,10 +37,21 @@ public class FinderMethodsTestRunner implements CommandLineRunner {
 		movie.setRating(5.6f);
 		movie.setYear("1980");
 
+//<<<<<<< Updated upstream
 		//for git stash task -2( priority)
 		movie.setMname("lay bhari");
 		movie.setRating(5.6f);
 		movie.setYear("2014");
+//=======;
+		//for git stash task -1 (less priority)
+		movie.setMname("Bahubali");
+		movie.setRating(1.2f);
+		movie.setYear("2017");
+		//pending task -1
+
+		
+
+//>>>>>>> Stashed changes
 		System.out.println(repo.save(movie).getMid()+"--- object is saved");
 		
 	}
