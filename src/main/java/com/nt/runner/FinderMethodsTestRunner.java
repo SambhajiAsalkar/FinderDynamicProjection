@@ -28,9 +28,15 @@ public class FinderMethodsTestRunner implements CommandLineRunner {
 		*/
 		
 		Movie movie=new Movie();
+<<<<<<< HEAD
 		movie.setMname("VED");
 		movie.setRating(5.6f);
 		movie.setYear("2023");
+=======
+		movie.setMname("shaktiman");
+		movie.setRating(5.6f);
+		movie.setYear("1980");
+>>>>>>> 30bb23e97c52908956035fa71eb2f07babcd6fb4
 		System.out.println(repo.save(movie).getMid()+"--- object is saved");
 		
 	}
